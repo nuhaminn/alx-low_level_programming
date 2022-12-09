@@ -10,7 +10,7 @@
 int main(void)
 {
 	int n;
-	int L;
+	int m;
 	char str[] = "Last digit of";
 
 	srand(time(0));
@@ -22,7 +22,6 @@ int main(void)
 	if (m == 0)
 		printf("%s %d is %d and is 0\n", str, n, m);
 	else if (m < 6)
-		printf("%s %d is %d and is less than 6 and not 0\n", str, n, m);
-	return (0);
+		printf("%s %d is %d and is less than 6 and not 0\n", str, n, m);return (0);
 }
 
