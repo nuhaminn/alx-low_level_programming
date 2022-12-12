@@ -5,24 +5,30 @@
 /**
  * main - Entry point
  *
- * Always 0 (Success)
+ * Return: Always 0 (Success)
+ *
  */
 
 int main(void)
 {
 	int n;
-	int m;
+	int L;
 
-		char str[] = "Last digit of";
-		srand(time(0));
-		n = rand() - RAND_MAX / 2;
-		m = n % 10;
-
-		if (m > 5)
-			printf("%s %d is %d and is greater than 5\n", str, n, m);
-		else if (m == 0)
-			printf("%s %d is %d and is 0\n", str, n, m);
-		else if (m < 6)
-			printf("%s %d is %d and is less than 6 and not 0\n", str, n, m);
-		return (0);
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	printf("Last digit of %d is ", n);
+	L = n % 10;
+	if (L > 5)
+	{
+		printf("%d and is greater than 5\n", L);
+	}
+	else if (L == 0)
+	{
+		printf("%d and is 0\n", L);
+	}
+	else if (L < 6)
+	{
+		printf("%d and is less than 6 and not 0\n", L);
+	}
+	return (0);
 }
