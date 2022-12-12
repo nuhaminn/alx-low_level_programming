@@ -6,17 +6,17 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
+ *
  */
-
 
 int main(void)
 {
-
-	char low;
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-		printf("\n");
-											return (0);
+	int ch = 'a';
+	while (ch <= 'z')
+	{
+		putchar(ch);
+		ch++;
+	}
+	putchar('\n');
+	return (0);
 }
-
-
