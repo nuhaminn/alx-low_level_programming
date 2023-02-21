@@ -2,7 +2,7 @@
 
 /**
  * main - Entry Point
- *
+ * @c: character to print
  * Return: on success 1
  */
 

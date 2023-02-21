@@ -2,7 +2,7 @@
 
 /**
  * main - Entry Point
- *
+ * prints putchar
  * Return: 0
  */
 
