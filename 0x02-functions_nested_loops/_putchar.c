@@ -1,9 +1,10 @@
 #include <unistd.h>
 
 /**
- * main - Entry Point
+ * _putchar - writes the character c
  * @c: character to print
- * Return: on success 1
+ *
+ * Return: On success 1.
  */
 
 int _putchar(char c)
